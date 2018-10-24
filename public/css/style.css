@@ -1,3 +1,38 @@
+body {
+  font-family: helvetica;
+  color: #FFFFFF;
+  background-image: url('background.png');
+  background-color: #F9FFE8;
+}
+
+h1 {
+  font-size: 60px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#name {
+  font-size: 40px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.select {
+  width: 50%;
+  margin: 0 auto;
+}
+
+div.country {
+  background-color: 'navy blue';
+}
+
 img {
-  width: 400px;
+  width: 50%;
+  margin: 0 auto;
+  float: left;
+  margin: 0px 40px;
+
 }

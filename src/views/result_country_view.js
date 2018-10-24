@@ -13,6 +13,7 @@ ResultCountryView.prototype.bindEvents = function () {
   ResultCountryView.prototype.render = function (country) {
     this.container.innerHTML = "";
     const infoCountryName = document.createElement('h1');
+    infoCountryName.id = 'name';
     infoCountryName.textContent = country.name;
     this.container.appendChild(infoCountryName);
 
